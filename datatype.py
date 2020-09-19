@@ -1,4 +1,6 @@
-print("My name is Dhrubo")
-print("I am 70 years old")
-print("I like my name Dhrubo")
-print("But I don't like my age 70")
+character_name = "Dhrubo"
+character_age = 70
+print("My name is" + character_name)
+print("I am" + character_age + "years old")
+print("I like my name" + character_name)
+print("But I don't like my age" + character_age)
