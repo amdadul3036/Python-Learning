@@ -1,3 +1,6 @@
+from math import*
+
+
 # Number
 print(5)
 
@@ -32,3 +35,14 @@ print(min(3,75,34,78,97,4,678))
 print(round(35424.4454))
 print(round(35424.6454))
 
+
+
+# Floor a number
+print(floor(34.245))
+
+# Ceil a number
+print(ceil(34.245))
+
+
+# Root squre a number
+print(sqrt(5))
