@@ -40,6 +40,14 @@ print(phrase.index("DHRUBOISH"))
 # Remember it will give the starting position of the characters "DHRUBOISH"
 
 
+print(phrase[3:7])
+# It will start from 3 index and end at the 7th character.  
+print(phrase[:8])
+# It will start from 0 index and end at the 8th character 
+print(phrase[10:])
+# It will start from 10 index and end at the last of the string. 
+print(phrase[:1000])
+# It will print up to last of the string if 1000 is more than that  
 
 # Replace() fucntion
 # Replace word or character by another
