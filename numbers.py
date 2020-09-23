@@ -46,3 +46,16 @@ print(ceil(34.245))
 
 # Root squre a number
 print(sqrt(5))
+
+
+
+# Complex Type Number
+comp1 = 3 + 4j 
+comp2 = 5 - 5j
+comp3 = 5.6 + 8j
+
+# In python j = sqrt(-1); you cannot use i as it is. 
+print(type(comp1))
+print(type(comp2))
+print(type(comp3))
+
