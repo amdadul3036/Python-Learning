@@ -59,3 +59,39 @@ print(type(comp1))
 print(type(comp2))
 print(type(comp3))
 
+# Convert integer to float 
+a = 5 
+b = float(a)
+print(b)
+# OUTPUT
+# 5.0
+print(type(b))
+# OUTPUT
+# <class 'float'>
+
+
+
+# Convert float into integer.
+s = 4.566
+print(type(s))
+# OUTPUT
+# <class 'float'>
+t = int(s)
+print(t)
+# OUTPUT
+# 4
+print(type(t))
+# OUTPUT
+# <class 'int'>
+
+
+# convert in Complex 
+p = 3
+q = -4
+r = complex(p,q)
+print(r)
+# OUTPUT
+# (3-4j)
+print(type(r))
+# OUTPUT
+# <class 'complex'>
