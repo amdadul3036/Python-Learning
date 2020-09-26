@@ -15,3 +15,18 @@ Hello - $ 4
 
 # -----------------------------------------------------------------------------------------------
 
+for k in range(6):
+    if k == 4:
+        break
+    print("Hello Break", k)
+
+'''
+OUTPUT 
+Hello Break 0
+Hello Break 1
+Hello Break 2
+Hello Break 3
+
+
+So break will stop at the break condition. The program will not run after that. 
+'''
