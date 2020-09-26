@@ -1,7 +1,10 @@
-number = float(input("Enter the number you want to check: "))
+number = int(input("Enter the number you want to check: "))
 
-
-if number%2==0 and number%number == 0:
-    print("Prime")
+for i in range(2 , number):
+    if number%i == 0:
+        print("Not Prime")
+        break
 else:
-    print("Not Prime")
+    print("Prime")
+    
+# Here is the use of for else . 
