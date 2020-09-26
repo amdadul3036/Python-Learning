@@ -8,3 +8,8 @@ for i in range(0 , 50):
     first = second
     second = third
     print(third)
+    
+
+
+
+# It's wrong but why?
