@@ -2,5 +2,8 @@
 
 from array import *
 
-val = array( "i" , [2,4,6,2,8,5])
+val = array( "i" , [2,-4,6,2,8,5])
 print(val)
+
+val1 = array( "I" , [2,4,6,2,8,5])
+print(val1)
