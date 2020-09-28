@@ -68,3 +68,28 @@ while n > 0 :
     print('Lather')
     print('Rinse')
 print('Dry off!')
+
+
+
+
+# --------------------------------------------------------------------------------------------
+
+# Coursera Assignment 5.2 ; Python for everybody. 
+
+largest = None
+smallest = None
+while True:
+    try:
+        num = raw_input("Enter a number: ")
+        if num == "done":
+            break
+        num = int(num)
+        if largest is None or largest < num:
+            largest = num
+        elif smallest is None or smallest > num:
+             smallest = num
+    except ValueError:
+        print("Invalid input")
+ 
+print ("Maximum is", largest)
+print ("Minimum is", smallest)
