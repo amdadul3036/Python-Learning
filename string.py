@@ -119,3 +119,25 @@ print(collage.lstrip(' '))
 
 print(collage.rstrip(' '))
 # rstrip() will remove all extra spaces from right side.
+
+
+
+# COMPARING STRING
+str1 = 'Dhruboish'
+str2 = 'Dhruboish'
+print('Comparing Dhruboish: ',str1==str2)
+
+
+str1 = 'A'
+str2 = 'B'
+print('Comparing A and B equal equal: ', str1 == str2)
+print('Comparing A less than B: ', str1 < str2)
+print('Comparing A less than or equal B: ', str1 <= str2)
+# These are because python takes A,B,C,D... == 0,1,2,3... 
+
+
+# Comparing two words 
+str1 = 'Programmar'
+str2 = 'Laptop'
+print(str1>str2)
+# It is true because str1 is bigger than str2. 
